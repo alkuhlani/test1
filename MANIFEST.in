@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include funding_management *.css
+recursive-include funding_management *.csv
+recursive-include funding_management *.html
+recursive-include funding_management *.ico
+recursive-include funding_management *.js
+recursive-include funding_management *.json
+recursive-include funding_management *.md
+recursive-include funding_management *.png
+recursive-include funding_management *.py
+recursive-include funding_management *.svg
+recursive-include funding_management *.txt
+recursive-exclude funding_management *.pyc
